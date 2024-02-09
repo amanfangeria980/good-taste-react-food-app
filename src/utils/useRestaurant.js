@@ -8,7 +8,7 @@ const useRestaurant = (setFilteredRestaurants) => {
     
     async function getRestaurants() {
         const data = await fetch(
-          "https://corsproxy.io/?https://www.jsonkeeper.com/b/UZP4"
+          "https://corsproxy.org/?https%3A%2F%2Fwww.jsonkeeper.com%2Fb%2FUZP4"
         );
         const json = await data.json();
         // console.log(json);
